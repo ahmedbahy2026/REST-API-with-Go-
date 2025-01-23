@@ -1,0 +1,10 @@
+PUT http://localhost:8080/events/1
+Content-Type: application/json
+authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiZXhwIjoxNzM3MDI4NDg5LCJ1c2VySWQiOjF9.GIYaCUVA3_3KAr-8NW1P_cmOKhbMYEL33vAvayouXeI
+
+{
+  "name": "Updated Test",
+  "description": "Description of updated test",
+  "location": "New City",
+  "dateTime": "2003-08-06T00:00:00Z"
+}
